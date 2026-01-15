@@ -2,6 +2,8 @@
 
 Zentriz Redis Package - Redis client for cache operations and session management.
 
+> **Status**: Ready for production use
+
 ## Installation
 
 ```bash
