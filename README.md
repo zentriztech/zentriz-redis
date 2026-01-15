@@ -114,6 +114,11 @@ npm run build
 npm run clean
 ```
 
+## Links
+
+- [GitHub Repository](https://github.com/zentriztech/zentriz-redis)
+- [GitHub Packages](https://github.com/orgs/zentriztech/packages/npm/package/redis)
+
 ## License
 
 MIT

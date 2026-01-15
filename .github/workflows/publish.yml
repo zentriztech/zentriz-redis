@@ -3,6 +3,9 @@ name: Publish @zentriztech/redis
 on:
   push:
     branches: [main]
+    tags:
+      - '*-deploy'
+      - 'deploy*'
   workflow_dispatch:
 
 jobs:
