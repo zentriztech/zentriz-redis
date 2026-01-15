@@ -1,0 +1,35 @@
+{
+  "name": "@zentriztech/redis",
+  "version": "0.1.0",
+  "type": "commonjs",
+  "author": "Zentriz Tech",
+  "email": "contato@zentriz.com.br",
+  "license": "MIT",
+  "description": "Zentriz Redis Package - Redis client for cache operations",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zentriztech/zentriz-redis.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": "20.x",
+    "pnpm": ">=10"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@zentriztech/core": "workspace:*",
+    "ioredis": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.4"
+  }
+}
